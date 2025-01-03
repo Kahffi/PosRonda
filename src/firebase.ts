@@ -7,13 +7,14 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_KEY,
+  apiKey: "AIzaSyCyJ4xEo36_EzvGZP3qqOu10mtO3Jlsxpg",
   authDomain: "posronda-firebase.firebaseapp.com",
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  databaseURL:
+    "https://posronda-firebase-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "posronda-firebase",
   storageBucket: "posronda-firebase.firebasestorage.app",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  messagingSenderId: "502531634781",
+  appId: "1:502531634781:web:725a06df3f19c2d373bfb4",
   measurementId: "G-GBB8PQWWJ1",
 };
 
